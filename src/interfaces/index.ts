@@ -4,7 +4,8 @@
 //
 // import User from 'path/to/interfaces';
 
-export type User = {
-  id: number
-  name: string
-}
+export type ListItem = {
+    id: number;
+    name: string;
+    description: string;
+};

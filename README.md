@@ -1,14 +1,33 @@
 # TypeScript Next.js example
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+This is a really simple project that shows the usage of Next.js with TypeScript with using ExpressJS also with Typescript.
 
-## Deploy your own
+## Getting Startded
 
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-typescript)
+Application is ready for further development "as is". It's a good starting point to develop your own application.  
+Treat it as a boilerplate.
 
 ## How to use it?
+
+To start application in `development` mode run:
+
+```
+npm run server:dev
+```
+
+To start an application you need to first build it with:
+
+```
+npm run build
+```
+
+Then you can run production build application with:
+
+```
+npm start
+```
+
+## Original information from _Next.js_ documentation
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
